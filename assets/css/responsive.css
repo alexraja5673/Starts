@@ -1,0 +1,87 @@
+
+@media (max-width:767px){
+    .logo{
+        font-size: 20px;
+    }
+    .logo img{
+        width: 30%;
+    }
+    .page-section{
+        padding: 20px 0;
+    }
+    .header-contact{
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+    .menu_top{
+		position: fixed;
+	    top: 0px;
+	    right: 0px;
+	    width: 0%;
+	    height: 65vh;
+	    background: rgba(0, 0, 0, 0.82);
+	    z-index: 999;
+	    transition: all 0.5s ease;
+	    -webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -ms-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    
+	}
+	.menu_top.active_menu_top{
+		width: 50%;
+	}
+	.menu_top .nav_menu{
+		width: 100%;
+		overflow: hidden;
+	}
+	.menu_top .nav_menu li{
+		display: block;
+	}
+	.menu_top .nav_menu li a{
+		padding: 8px 15px;
+	}
+    .banner-text{
+        order: 2;
+    }
+    .banner-content h1{
+        font-size: 1.3rem;
+    }
+    .banner-content span{
+        font-size: .9rem;
+        letter-spacing: .1rem;
+    }
+    .partner-txt {
+        line-height: 18px;
+    }
+    .part_logo{
+        width: 60%;
+        margin: auto;
+    }
+    .socials{
+        justify-content: center;
+    }
+
+	.menu_bar{
+		display: block;
+	}
+    .card-sec{
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .card-col{
+        width: 80%;
+    }
+
+    /* service  */
+
+    .ser_card_body {
+        width: 95%;
+        margin: auto;
+    }
+}
+@media(min-width:767px) and (max-width:992px){
+	
+}
+
